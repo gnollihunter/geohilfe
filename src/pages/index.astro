@@ -1,0 +1,221 @@
+---
+import Layout from '../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL;
+---
+
+<Layout title="Home" description="GeoHilfe - Professionelle Lern- und Wissensplattform für Geographie">
+  <div class="hero">
+    <h1>🌍 GeoHilfe</h1>
+    <p class="subtitle">Geographie digital – Wissenschaftlich fundiert, aktuell, praxisnah</p>
+  </div>
+
+  <section class="intro">
+    <p>
+      Willkommen bei GeoHilfe! Hier findest du fundierte, wissenschaftlich aktuelle Inhalte
+      zu allen wichtigen Teilgebieten der Geographie – von Stadtentwicklung über Klimazonen
+      bis zu Erdsystem-Wissenschaften.
+    </p>
+  </section>
+
+  <section class="categories">
+    <h2>Themengebiete</h2>
+
+    <div class="category-grid">
+      <a href={`${base}/stadtgeographie`} class="category-card">
+        <div class="category-icon">🏙️</div>
+        <h3>Stadtgeographie</h3>
+        <p>Urbanisierung, Global Cities, Stadtentwicklung und sozialräumliche Prozesse</p>
+      </a>
+
+      <a href={`${base}/bevoelkerung`} class="category-card">
+        <div class="category-icon">👥</div>
+        <h3>Bevölkerungsgeographie</h3>
+        <p>Demographie, Migration, Bevölkerungsdynamik und -prognosen</p>
+      </a>
+
+      <a href={`${base}/boden`} class="category-card">
+        <div class="category-icon">🌱</div>
+        <h3>Bodengeographie</h3>
+        <p>Bodentypen, Prozesse, Degradation und Bedeutung im Klimasystem</p>
+      </a>
+
+      <a href={`${base}/geomorphologie`} class="category-card">
+        <div class="category-icon">🏔️</div>
+        <h3>Geomorphologie</h3>
+        <p>Landformen, endogene und exogene Prozesse, Naturgefahren</p>
+      </a>
+
+      <a href={`${base}/oekozonen`} class="category-card">
+        <div class="category-icon">🌳</div>
+        <h3>Ökozonen</h3>
+        <p>Die 9 Ökozonen nach Schultz – von Polargebieten bis Tropenwäldern</p>
+      </a>
+
+      <a href={`${base}/hydrologie`} class="category-card">
+        <div class="category-icon">💧</div>
+        <h3>Hydrologie</h3>
+        <p>Wasserkreislauf, Gewässer, Grundwasser und Wassermanagement</p>
+      </a>
+
+      <a href={`${base}/sphaeren`} class="category-card">
+        <div class="category-icon">🌐</div>
+        <h3>Sphären der Erde</h3>
+        <p>System Erde, Kreisläufe, Planetare Grenzen und Anthropozän</p>
+        <span class="badge">Neu</span>
+      </a>
+    </div>
+  </section>
+
+  <section class="features">
+    <h2>Was macht GeoHilfe besonders?</h2>
+
+    <div class="features-grid">
+      <div class="feature">
+        <div class="feature-icon">🔬</div>
+        <h3>Wissenschaftlich fundiert</h3>
+        <p>Aktuelle Forschungsliteratur (2020-2025) mit DOI-Links zu Originalstudien</p>
+      </div>
+
+      <div class="feature">
+        <div class="feature-icon">🔗</div>
+        <h3>Umfassend verlinkt</h3>
+        <p>Datenportale (UN, NASA, IPCC), Forschungsinstitute und interaktive Tools</p>
+      </div>
+
+      <div class="feature">
+        <div class="feature-icon">📚</div>
+        <h3>Didaktisch aufbereitet</h3>
+        <p>Ressourcen für Unterricht, Selbststudium und Prüfungsvorbereitung</p>
+      </div>
+
+      <div class="feature">
+        <div class="feature-icon">🌡️</div>
+        <h3>Aktuell & relevant</h3>
+        <p>Fokus auf Klimawandel, Nachhaltigkeit und aktuelle Herausforderungen</p>
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .hero {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+
+  .hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .subtitle {
+    font-size: 1.25rem;
+    color: var(--text-light);
+  }
+
+  .intro {
+    background: var(--bg-gray);
+    padding: 2rem;
+    border-radius: 8px;
+    margin-bottom: 3rem;
+  }
+
+  .intro p {
+    font-size: 1.125rem;
+    line-height: 1.7;
+    margin: 0;
+  }
+
+  .category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+
+  .category-card {
+    background: white;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 2rem;
+    text-decoration: none;
+    color: var(--text);
+    transition: all 0.3s;
+    position: relative;
+  }
+
+  .category-card:hover {
+    border-color: var(--primary);
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.1);
+    transform: translateY(-2px);
+  }
+
+  .category-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  .category-card h3 {
+    margin: 0 0 0.5rem 0;
+    color: var(--text);
+  }
+
+  .category-card p {
+    margin: 0;
+    color: var(--text-light);
+    font-size: 0.95rem;
+  }
+
+  .badge {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: var(--primary);
+    color: white;
+    padding: 0.25rem 0.75rem;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: 600;
+  }
+
+  .features {
+    margin-top: 4rem;
+  }
+
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+
+  .feature {
+    text-align: center;
+  }
+
+  .feature-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .feature h3 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.25rem;
+  }
+
+  .feature p {
+    margin: 0;
+    color: var(--text-light);
+    font-size: 0.95rem;
+  }
+
+  @media (max-width: 768px) {
+    .hero h1 {
+      font-size: 2.5rem;
+    }
+
+    .category-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
