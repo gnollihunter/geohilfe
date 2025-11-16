@@ -335,7 +335,7 @@ Bodenbildende Prozesse transformieren das Ausgangsgestein in Boden und differenz
 ---
 
 **Weiterführende Themen:**
-- [Bodentypen und ihre Verbreitung](bodentypen.md)
-- [Bodenwasser und Wasserhaushalt](bodenwasser.md)
-- [Bodenbildende Prozesse im Detail](bodenbildung.md)
-- [Bodendegradation und Bodenschutz](bodenschutz.md)
+- [Bodentypen und ihre Verbreitung](boden/bodentypen)
+- [Bodenwasser und Wasserhaushalt](boden/bodenwasser)
+- [Bodenbildende Prozesse im Detail](boden/bodenbildung)
+- [Bodendegradation und Bodenschutz](boden/bodenschutz)

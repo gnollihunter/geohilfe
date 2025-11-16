@@ -583,8 +583,8 @@ Als **„virtuelles Wasser"** bezeichnet man die Menge an Wasser, welche für di
 ---
 
 **Weiterführende Themen:**
-- [Abflussregime](abflussregime.md)
-- [Grundwasser und Aquifere](grundwasser.md)
-- [Flussökologie](flussoekologie.md)
-- [Virtuelles Wasser und Water Footprint](virtuelles-wasser.md)
-- [Wasserkonflikte und -management](wassermanagement.md)
+- [Abflussregime](hydrologie/abflussregime)
+- [Grundwasser und Aquifere](hydrologie/grundwasser)
+- [Flussökologie](hydrologie/flussoekologie)
+- [Virtuelles Wasser und Water Footprint](hydrologie/virtuelles-wasser)
+- [Wasserkonflikte und -management](hydrologie/wassermanagement)

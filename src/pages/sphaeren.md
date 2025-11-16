@@ -432,12 +432,12 @@ Oft als eigene Sphäre betrachtet (Teil der Hydrosphäre):
 ---
 
 **Weiterführende Themen:**
-- [Atmosphäre](atmosphaere.md)
-- [Hydrosphäre](hydrosphaere.md)
-- [Lithosphäre](lithosphaere.md)
-- [Pedosphäre](pedosphaere.md)
-- [Biosphäre](biosphaere.md)
-- [Anthroposphäre](anthroposphaere.md)
-- [Kryosphäre](kryosphaere.md)
-- [Stoffkreisläufe](stoffkreislaeufe.md)
-- [Planetare Grenzen](planetare-grenzen.md)
+- [Atmosphäre](sphaeren/atmosphaere)
+- [Hydrosphäre](sphaeren/hydrosphaere)
+- [Lithosphäre](sphaeren/lithosphaere)
+- [Pedosphäre](sphaeren/pedosphaere)
+- [Biosphäre](sphaeren/biosphaere)
+- [Anthroposphäre](sphaeren/anthroposphaere)
+- [Kryosphäre](sphaeren/kryosphaere)
+- [Stoffkreisläufe](sphaeren/stoffkreislaeufe)
+- [Planetare Grenzen](sphaeren/planetare-grenzen)

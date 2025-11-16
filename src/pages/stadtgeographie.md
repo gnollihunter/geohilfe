@@ -198,7 +198,7 @@ In den letzten Jahrzehnten haben sich weitere wichtige Forschungsrichtungen etab
 ---
 
 **Weiterführende Themen:**
-- [Global Cities und Weltstädte](global-cities.md)
-- [Stadtstrukturmodelle](stadtstrukturmodelle.md)
-- [Gentrifizierung](gentrifizierung.md)
-- [Regionale Stadttypen](regionale-stadttypen.md)
+- [Global Cities und Weltstädte](stadtgeographie/global-cities)
+- [Stadtstrukturmodelle](stadtgeographie/stadtstrukturmodelle)
+- [Gentrifizierung](stadtgeographie/gentrifizierung)
+- [Regionale Stadttypen](stadtgeographie/regionale-stadttypen)

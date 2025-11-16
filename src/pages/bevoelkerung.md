@@ -138,7 +138,7 @@ Bevölkerungsprognosen sind essentiell für Planung und Politik, aber mit Unsich
 ---
 
 **Weiterführende Themen:**
-- [Demographischer Übergang](demographischer-uebergang.md)
-- [Alterspyramiden](alterspyramide.md)
-- [Migration und Wanderung](migration.md)
-- [Bevölkerungsprognosen](bevoelkerungsprognose.md)
+- [Demographischer Übergang](bevoelkerung/demographischer-uebergang)
+- [Alterspyramiden](bevoelkerung/alterspyramiden)
+- [Migration und Wanderung](bevoelkerung/migration)
+- [Bevölkerungsprognosen](bevoelkerung/bevoelkerungsprognose)

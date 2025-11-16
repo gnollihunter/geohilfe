@@ -450,7 +450,7 @@ Deutschland lässt sich in fünf geomorphologische Großräume gliedern:
 ---
 
 **Weiterführende Themen:**
-- [Glaziale Serie](glaziale-serie.md)
-- [Karsthydrologie](karst.md)
-- [Massenbewegungen](massenbewegungen.md)
-- [Küstenformen](kuestenformen.md)
+- [Glaziale Serie](geomorphologie/glaziale-serie)
+- [Karsthydrologie](geomorphologie/karst)
+- [Massenbewegungen](geomorphologie/massenbewegungen)
+- [Küstenformen](geomorphologie/kuestenformen)
